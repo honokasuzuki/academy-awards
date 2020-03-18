@@ -1,5 +1,5 @@
 ## Text Analysis: Academy Awards Acceptance Speeches - Actors vs. Actresses
-**Is there a systematic difference between speech styles of actresses and actors at the Academy Awards, and what does that difference (if it exists) convey about the attitudes and social hierarchies of actresses and actors?**
+**Is there a systematic difference between speech styles of actresses and actors at the Academy Awards, and what does that difference (if it exists) convey about the attitudes and social hierarchies of actresses and actors in the film industry?**
 
 Transcripts of historical Academy Awards acceptances speeches were scraped from the Academy Awards Acceptance Speech Database (http://aaspeechesdb.oscars.org/) using the R package rvest. All available acceptance speeches in the database were scraped from the award categories *Actor in a Leading Role, Actress in a Leading Role, Actor in a Supporting Role,* and *Actress in a Supporting Role*. This resulted in a corpus of 229 documents, ranging from the 12th Academy Awards in 1939 to the 91st Academy Awards in 2018. Scraped variables per document (speech) included a transcript of the acceptance speech, name of actor or actress, name of the film, year of the Academy Awards, and award category (actor/actress, leading/supporting role).
 
