@@ -11,6 +11,6 @@ Second, I will use **part-of-speech tagging** to compare the top pronouns used i
 
 Third, I will employ **structural topic modeling** to generate possible speech topics using gender and year of awards as predictors. If any apparently clear topics are generated, this will help me explore if there are significant differences in the contents of the acceptance speeches across gender and whether there are any topics that are talked about more by one gender than another. 
 
-Lastly, I will perform a **naïve Bayes classification** to investigate how well the algorithm can predict the gender of the award-winner given a speech transcript. The performance of the classification will reveal how distinct and ‘learnable’ the differences between actors and actresses’ speeches are. 
+Lastly, I will perform a **naïve Bayes classifier** to investigate how well the algorithm can predict the gender of the award-winner given a speech transcript. The performance of the classification will reveal how distinct and ‘learnable’ the differences between actors and actresses’ speeches are. 
 
 *see literature review.
