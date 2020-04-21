@@ -3,7 +3,7 @@
 
 Transcripts of historical Academy Awards acceptances speeches were scraped from the Academy Awards Acceptance Speech Database (http://aaspeechesdb.oscars.org/) using the R package rvest. All available acceptance speeches in the database were scraped from the award categories *Actor in a Leading Role, Actress in a Leading Role, Actor in a Supporting Role,* and *Actress in a Supporting Role*. This resulted in a corpus of 229 documents, ranging from the 12th Academy Awards in 1939 to the 91st Academy Awards in 2018. Scraped variables per document (speech) included a transcript of the acceptance speech, name of actor or actress, name of the film, year of the Academy Awards, and award category (actor/actress, leading/supporting role).
 
-Methods:
+### *Methods:*
 
 First, using sentence-level **sentiment analysis**, I will compare the emotional valence of speeches given by actors and those given by actresses using average sentiment polarities. This will elucidate how positive or negative the actors and actresses’ speeches are compared to one another. To investigate further, emotion classification can provide a more specific idea of what dominant emotions beyond just positive or negative are expressed in these speeches, such as joy, surprise, and anticipation.  
 
@@ -13,9 +13,9 @@ Third, I will perform **structural topic modeling** to generate possible speech 
 
 Lastly, I will perform a **naïve Bayes classifier** to investigate how well the algorithm can predict the gender of the award-winner given a speech transcript. The performance of the classification will reveal the distinctiveness and ‘learnability’ of the indicators of actors and actresses’ speeches. 
 
-Files:
+### *Files:*
 
-See **analysis.md** for full analysis (including code, figures, and explanations). 
-See **webscrape.R** for details on how the data was scraped.
-See **clean.R** for details on how the scraped data was cleaned.
-**speech_clean.RDS** is the cleaned data used in the analysis.
+See **analysis.md** for full analysis (including code, figures, and explanations).   
+See **webscrape.R** for details on how the data was scraped.  
+See **cleaning.R** for details on how the scraped data was cleaned.  
+**speeches_clean.rds** is the cleaned data used in the analysis.
